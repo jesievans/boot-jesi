@@ -1,0 +1,324 @@
+/*GENERAL*/
+
+body {
+	background-color: #5E5E5E;
+	color: white;
+	font-family: 'Josefin Sans', sans-serif;
+}
+
+.container {
+	width: 90%;
+}
+
+h1, h2, .about a, .contact a, .cv a, .exhibits a, .portfolio a, .portdiv h3,
+.cvh3, .conh3, .modal-header, .soonerh3 {
+	font-family: 'Fredericka the Great', cursive;
+}
+
+a {
+	color: inherit;
+}
+
+a:hover {
+	font-style: italic;
+	color: inherit;
+	background-color: inherit;
+	text-decoration: none;
+}
+
+.exhibitstext a, .exh3, h1, h2, .homediv a, .aboutdiv, .portdiv h3, 
+.apisdiv h3, .archdiv1 h3, .archdiv2 h3, .condiv h4, .studiesdiv, .statement h3,
+.cvh3, .cvtext a, .conh3, .modal-header, .soonerh3 {
+	text-shadow: 0 4px 2px rgba(0,0,0,1);
+}
+
+.btn-default {
+	background-color: transparent;
+	border: 1px solid white;
+	color: white;
+}
+
+/*NAVIGATION*/
+
+.navbar-inverse .navbar-nav li a {
+	color: white;
+}
+
+.dropdown {
+	background-color: rgba(51,51,51, .9);
+	border: none;
+}
+
+nav img {
+	width: 50px;
+	height: 50px;
+}
+
+.navbar-brand {
+	padding-top: 0;
+}
+
+.navbar-inverse .navbar-toggle {
+	border-color: white;
+}
+
+.navbar-inverse .navbar-text {
+	font-family: 'Fredericka the Great', cursive;
+	color: white;
+	font-size: 1em;
+}
+
+.dropdown-menu {
+	background-color: inherit;
+}
+
+.dropdown li a:hover {
+	background-color: rgba(51,51,51, .9);
+}
+
+.dropdown-menu .active a {
+	background-color: black;
+}
+
+.dropdown-menu .active a:hover {
+	background-color: inherit;
+}
+
+
+/*FOOTER*/
+
+footer img {
+	box-shadow: 4px 4px 5px rgba(0,0,0, .4);
+}
+
+/*MODAL*/
+
+.modal-content {
+	background-color: #5E5E5E;
+}
+
+.modal-body img {
+	width: 100%;
+	height: auto;
+	box-shadow: inset 0px 0px 1px 1000px rgba(0,0,0, .2), 
+    5px 5px 5px rgba(0,0,0, .5);
+}
+
+.close {
+	color: white;
+}
+
+.soonerp {
+	font-size: 1.25em;
+}
+
+.soonerh3 {
+	text-align: center;
+}
+
+
+/*INDEX */
+
+.homeimgdiv {
+	width: 98%;
+	margin-left: 1%;
+}
+
+.about, .contact, .cv, .exhibits, .portfolio {
+	height: 100px;
+	margin-bottom: 10px;
+	box-shadow: inset 0px 0px 1px 1000px rgba(0,0,0, .2), 
+    5px 5px 5px rgba(0,0,0, .5);
+}
+
+.about a, .contact a, .cv a, .exhibits a, .portfolio a {
+	padding: 20px 40px 40px;
+	font-size: 2em;
+}
+
+.about {
+  background-size: 100% 250%;
+	background-image: url('../img/connection/sdatfirstdetail.jpg');
+	background-position: center;
+}
+
+.contact {
+  background-size: 100% 250%;
+	background-image: url('../img/apis/hivedetail.JPG');
+	background-position: center bottom;
+}
+
+.cv {
+  background-size: 100% 200%;
+	background-image: url('../img/connection/sdchosenpathdetail.jpg');
+	background-position: center;
+}
+
+.exhibits {
+  background-size: 100% 250%;
+	background-image: url('../img/connection/sdunknowndetail.jpg');
+	background-position: center;
+}
+
+.portfolio {
+  background-size: 100% 250%;
+	background-image: url('../img/connection/sdwitheachdetail.jpg');
+	background-position: center top;
+}
+
+/*PORTFOLIO*/
+
+.apis, .connection, .archive {
+	width: 90%;
+	box-shadow: inset 0px 0px 1px 1000px rgba(0,0,0, .2), 
+    5px 5px 5px rgba(0,0,0, .5);
+}
+
+/*APIS*/
+
+.hive, .skull, .beegeo, .green, .mason, .hexagon, .three {
+	width: 90%;
+	box-shadow: inset 0px 0px 1px 1000px rgba(0,0,0, .2), 
+    5px 5px 5px rgba(0,0,0, .5);
+}
+
+/*CONNECTION*/
+
+.atfirst, .unknown, .promise, .eachpath, .chosen {
+	width: 90%;
+	box-shadow: inset 0px 0px 1px 1000px rgba(0,0,0, .2), 
+    5px 5px 5px rgba(0,0,0, .5);
+}
+
+.statement p {
+	font-size: 1.25em;
+}
+
+/*ARCHIVE*/
+
+.darger, .sooner, .daisy, .bee, .circles, .icosahedron, .scarlet, .argyle, .night {
+	width: 90%;
+	box-shadow: inset 0px 0px 1px 1000px rgba(0,0,0, .2), 
+    5px 5px 5px rgba(0,0,0, .5);
+}
+
+.studiesdiv, .aboutdiv, .statement h3 {
+	text-align: center;
+	font-family: 'Fredericka the Great', cursive;
+}
+
+/*ABOUT*/
+
+.profile-photo {
+	width: 90%;
+	max-width: 360px;
+	box-shadow: inset 0px 0px 1px 1000px rgba(0,0,0, .2), 
+    5px 5px 5px rgba(0,0,0, .5);
+}
+
+.abouttext p {
+	font-size: 1.25em;
+}
+
+/*EXHIBITS*/
+
+.exh3 {
+	font-family: 'Fredericka the Great', cursive;
+	text-align: center;
+}
+
+.exhibitstext p {
+	font-size: 1.25em;
+}
+
+.exhibitstext div {
+	border-left: 2px solid white;
+	margin-bottom: 20px;
+	box-shadow: inset 175px 0px 150px -200px rgba(255,255,255,0.5);
+}
+
+.exhibitstext a {
+	font-weight: bold;
+
+}
+
+/*CV*/
+
+.cvh3 {
+	text-align: center;
+}
+
+.cvtext p {
+	font-size: 1.25em;
+}
+
+.cvtext a {
+	font-weight: bold;
+
+}
+
+/*CONTACT*/
+
+.conh3 {
+	text-align: center;
+}
+
+form label {
+	font-size: 1.25em;
+}
+
+form {
+	border-radius: 10px;
+  	background-repeat: no-repeat;
+  	background-size: 100% 100%;
+	background-image: url('../img/connection/sdpromisedetail.jpg');
+	background-position: center;
+	box-shadow: inset 0px 0px 1px 1000px rgba(0,0,0, .2), 
+    5px 5px 5px rgba(0,0,0, .5);
+}
+
+form div {
+	width: 90%;
+	margin: 10px auto;
+}
+
+form div button {
+	margin-bottom: 100px;
+}
+
+/*MEDIA QUERIES*/
+
+@media only screen and (min-width: 768px) {
+	h1 {
+		text-align: left;
+	}
+
+	h2 {
+		text-align: right;
+	}
+
+	.aboutimg {
+		float: left;
+	}
+}
+
+@media only screen and (min-width: 821px) {
+	.navbar-inverse .navbar-text {
+		font-size: 2em;
+		margin: 5px 0 0 0;
+	}	
+}
+
+@media only screen and (min-width: 1200px) {
+	.navbar-inverse .navbar-nav li a {
+		font-size: 1.25em;
+	}
+
+	.container {
+		width: 80%;
+	}
+
+	.aboutimg {
+		margin-right: 10px;
+	}
+}
