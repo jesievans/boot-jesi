@@ -3,7 +3,6 @@
 body {
 	background-color: #5E5E5E;
 	color: white;
-	font-family: 'Josefin Sans', sans-serif;
 }
 
 .container {
@@ -27,8 +26,8 @@ a:hover {
 }
 
 .exhibitstext a, .exh3, h1, h2, .homediv a, .aboutdiv, .portdiv h3, 
-.apisdiv h3, .archdiv1 h3, .archdiv2 h3, .condiv h4, .studiesdiv, .statement h3,
-.cvh3, .cvtext a, .conh3, .modal-header, .soonerh3 {
+.apisdiv h3, .archdiv1 h3, .archdiv2 h3, .archdiv3 h3, .archdiv4 h3, .condiv h4, .studiesdiv, .statement h3,
+.cvh3, .cvtext a, .conh3, .modal-header, .soonerh3, .walldiv, .drawdiv {
 	text-shadow: 0 4px 2px rgba(0,0,0,1);
 }
 
@@ -65,7 +64,7 @@ nav img {
 .navbar-inverse .navbar-text {
 	font-family: 'Fredericka the Great', cursive;
 	color: white;
-	font-size: 1em;
+	font-size: 1.5em;
 }
 
 .dropdown-menu {
@@ -132,8 +131,8 @@ footer img {
 }
 
 .about a, .contact a, .cv a, .exhibits a, .portfolio a {
-	padding: 20px 40px 40px;
-	font-size: 2em;
+	padding: 20px 40px 30px;
+	font-size: 2.5em;
 }
 
 .about {
@@ -176,7 +175,7 @@ footer img {
 
 /*APIS*/
 
-.hive, .skull, .beegeo, .green, .mason, .hexagon, .three {
+.hive, .skull, .beegeo, .green, .mason, .hexagon, .three, .icosabee {
 	width: 90%;
 	box-shadow: inset 0px 0px 1px 1000px rgba(0,0,0, .2), 
     5px 5px 5px rgba(0,0,0, .5);
@@ -196,13 +195,13 @@ footer img {
 
 /*ARCHIVE*/
 
-.darger, .sooner, .daisy, .bee, .circles, .icosahedron, .scarlet, .argyle, .night {
+.darger, .sooner, .daisy, .bee, .circles, .icosahedron, .scarlet, .argyle, .night, .plant, .blood, .work, .gray, .sepia {
 	width: 90%;
 	box-shadow: inset 0px 0px 1px 1000px rgba(0,0,0, .2), 
     5px 5px 5px rgba(0,0,0, .5);
 }
 
-.studiesdiv, .aboutdiv, .statement h3 {
+.studiesdiv, .aboutdiv, .walldiv, .drawdiv, .statement h3 {
 	text-align: center;
 	font-family: 'Fredericka the Great', cursive;
 }
@@ -291,14 +290,20 @@ form div button {
 @media only screen and (min-width: 768px) {
 	h1 {
 		text-align: left;
+		font-size: 3em;
 	}
 
 	h2 {
 		text-align: right;
+		font-size: 3em;
 	}
 
 	.aboutimg {
 		float: left;
+	}
+
+	.homediv a {
+		font-size: 3em;
 	}
 }
 
@@ -307,11 +312,23 @@ form div button {
 		font-size: 2em;
 		margin: 5px 0 0 0;
 	}	
+
+	.abouttext p, .exhibitstext p, .cvtext p, .statement p {
+	font-size: 1.75em;
+	}
+
+	.aboutdiv h3, .exh3, .cvh3, .statement h3 {
+		font-size: 2em;
+	}
 }
 
 @media only screen and (min-width: 1200px) {
 	.navbar-inverse .navbar-nav li a {
-		font-size: 1.25em;
+		font-size: 1.5em;
+	}
+
+	.navbar-inverse .navbar-text {
+		font-size: 2.5em;
 	}
 
 	.container {
@@ -320,5 +337,9 @@ form div button {
 
 	.aboutimg {
 		margin-right: 10px;
+	}
+
+	h1, h2 {
+		font-size: 4em;
 	}
 }
