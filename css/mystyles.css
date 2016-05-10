@@ -167,7 +167,15 @@ footer img {
 
 /*PORTFOLIO*/
 
-.apis, .connection, .archive {
+.problem, .apis, .connection, .archive {
+	width: 90%;
+	box-shadow: inset 0px 0px 1px 1000px rgba(0,0,0, .2), 
+    5px 5px 5px rgba(0,0,0, .5);
+}
+
+/*MY LITTLE PROBLEM*/
+
+.gastritis {
 	width: 90%;
 	box-shadow: inset 0px 0px 1px 1000px rgba(0,0,0, .2), 
     5px 5px 5px rgba(0,0,0, .5);
@@ -195,7 +203,7 @@ footer img {
 
 /*ARCHIVE*/
 
-.darger, .sooner, .daisy, .bee, .circles, .icosahedron, .scarlet, .argyle, .night, .plant, .blood, .work, .gray, .sepia {
+.meredith, .darger, .sooner, .daisy, .bee, .circles, .icosahedron, .scarlet, .argyle, .night, .plant, .blood, .work, .gray, .sepia {
 	width: 90%;
 	box-shadow: inset 0px 0px 1px 1000px rgba(0,0,0, .2), 
     5px 5px 5px rgba(0,0,0, .5);
@@ -239,6 +247,10 @@ footer img {
 .exhibitstext a {
 	font-weight: bold;
 
+}
+
+.current {
+	font-size: 1.75em;
 }
 
 /*CV*/
@@ -286,6 +298,12 @@ form div button {
 }
 
 /*MEDIA QUERIES*/
+
+@media only screen and (min-width: 250px) {
+	body {
+		padding-top: 50px;
+	}
+}
 
 @media only screen and (min-width: 768px) {
 	h1 {
