@@ -60,13 +60,66 @@
 
       <div class="problemdiv row">
 
-        <div class="col-xs-12 col-sm-6 col-sm-offset-3 col-md-6 text-center">
-          <h3>Just Some Slight Gastritis</h3>
-          <img src="img/mylittleproblem/justsomeslightgastritis.jpg" alt class="gastritis">
+        <div class="col-xs-12 col-sm-6 col-md-6 text-center">
+          <a data-toggle="modal" data-target="#gastritisModal" href="#">
+            <h3>Just Some Slight Gastritis</h3>
+            <img src="img/mylittleproblem/justsomeslightgastritis.jpg" alt class="gastritis">
+          </a>
+          <p>2016</p>
+        </div>
+        <div class="col-xs-12 col-sm-6 col-md-6 text-center">
+          <a data-toggle="modal" data-target="#colonModal" href="#">
+            <h3>Your Colonoscopy was Clear</h3>
+            <img src="img/mylittleproblem/yourcolonoscopywasclear.jpg" alt class="colon">
+          </a>
           <p>2016</p>
         </div>
 
       </div> <!-- end image row -->
+
+      <!-- MODALS -->
+
+      <!-- gastritis Modal -->
+      <div class="modal fade" id="gastritisModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+              <h1 class="modal-title" id="myModalLabel">Just some Slight Gastritis - 2016</h1>
+            </div>
+            <div class="modal-body">
+              <img src="img/mylittleproblem/justsomeslightgastritis.jpg">
+              <h3>Just some Slight Gastritis Detail <span class="caret"></span></h3>
+              <img src="img/mylittleproblem/justsomeslightgastritisdetail.jpg">
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      </div> <!-- end gastritis modal -->
+
+      <!-- colon Modal -->
+      <div class="modal fade" id="colonModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+              <h1 class="modal-title" id="myModalLabel">Your Colonoscopy was Clear - 2016</h1>
+            </div>
+            <div class="modal-body">
+              <img src="img/mylittleproblem/yourcolonoscopywasclear.jpg">
+              <h3>Your Colonoscopy was Clear Detail <span class="caret"></span></h3>
+              <img src="img/mylittleproblem/yourcolonoscopywascleardetail.jpg">
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      </div> <!-- end colon modal -->
+
+      <!-- END MODALS -->
 
       <br>
       <footer>
